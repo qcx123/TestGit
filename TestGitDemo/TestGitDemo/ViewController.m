@@ -16,6 +16,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    NSLog(@"这是分支2");
     UIView *v = [[UIView alloc] initWithFrame:CGRectMake(100, 100, 100, 100)];
     v.backgroundColor = [UIColor redColor];
     [self.view addSubview:v];
